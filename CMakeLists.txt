@@ -332,6 +332,9 @@ if(BUILD_UTILS)
     add_executable(mp4chaps ${UTILITY_HEADER_FILES} util/mp4chaps.cpp)
     target_link_libraries(mp4chaps mp4v2 util)
 
+    add_executable(mp4copy ${UTILITY_HEADER_FILES} util/mp4copy.cpp)
+    target_link_libraries(mp4copy mp4v2)
+
     add_executable(mp4extract ${UTILITY_HEADER_FILES} util/mp4extract.cpp)
     target_link_libraries(mp4extract mp4v2)
 
@@ -372,6 +375,7 @@ install(FILES "${CMAKE_CURRENT_BINARY_DIR}/mp4v2.pc" DESTINATION "${CMAKE_INSTAL
 if(BUILD_UTILS)
     install(TARGETS mp4art
                     mp4chaps
+                    mp4copy
                     mp4extract
                     mp4file
                     mp4info

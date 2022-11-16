@@ -47,3 +47,20 @@ mp4v2--r*
 *.dll
 *.exe
 *.tar.bz2
+
+# MacOS
+mp4art
+mp4chaps
+mp4copy
+mp4extract
+mp4file
+mp4info
+mp4subtitle
+mp4tags
+mp4track
+mp4trackdump
+.DS_Store
+
+# xcode
+xcuserdata/
+

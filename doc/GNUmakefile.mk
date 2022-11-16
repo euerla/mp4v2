@@ -346,6 +346,7 @@ CXX.gch.shared.dependents = $(libmp4v2_la_OBJECTS)
 CXX.gch.exe.dependents = \
     $(mp4art_OBJECTS)        \
     $(mp4chaps_OBJECTS)      \
+    $(mp4copy_OBJECTS)       \
     $(mp4extract_OBJECTS)    \
     $(mp4file_OBJECTS)       \
     $(mp4info_OBJECTS)       \
